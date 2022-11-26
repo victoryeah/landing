@@ -1,12 +1,15 @@
-import React from 'react';
 import './App.css';
+import { Footer } from './components/Footer/Footer'
+import Simple from './components/Animation/Animation'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>FRBRG Ventures</h1>
+        <Simple />
       </header>
+      
+      <Footer />
     </div>
   );
 }
