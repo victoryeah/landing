@@ -8,7 +8,6 @@ function App() {
         <h1>FRBRG Ventures</h1>
       </header>
       <Footer />
-
     </div>
   );
 }
