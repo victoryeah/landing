@@ -1,12 +1,12 @@
 @font-face {
-  font-family: staatliches;
-  src: url(../public/Staatliches-Regular.ttf);
+  font-family: nabla;
+  src: url(../public/Nabla-Regular.ttf);
 }
 
 body {
   background-color: #004aad;
   margin: 0;
-  font-family: staatliches;
+  font-family: nabla;
 }
 
 code {

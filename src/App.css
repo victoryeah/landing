@@ -3,18 +3,12 @@
 }
 
 .App-header {
-  background-color: #004aad;
+  background-color: #666659;
   min-height: 90vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-}
-
-.App-header > h1 {
-  background: linear-gradient(90deg, rgb(136, 99, 255) 0%, rgba(29,189,230,1) 100%);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: calc(2em + 2vmin);
 }
