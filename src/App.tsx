@@ -7,6 +7,7 @@ function App() {
       <header className="App-header">
         <h1>FRBRG Ventures</h1>
       </header>
+      
       <Footer />
     </div>
   );

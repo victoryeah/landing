@@ -2,8 +2,8 @@ import './style.css'
 
 export const Footer = () => {
     return (    
-        <div className={"footer"}>
+        <footer className={"footer"}>
             <p>© FRBRG Ventures AB 2022</p>
-        </div>
+        </footer>
     )
 }
