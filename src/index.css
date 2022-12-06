@@ -4,12 +4,24 @@
 }
 
 body {
-  background-color: #004aad;
+  background-color: rgb(39, 120, 152);
   margin: 0;
   font-family: nabla;
+  font-palette: --myPalette;
 }
 
 code {
+  font-size: medium;
+  font-weight: 600;
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+  padding: 10px;
+  color:  rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+}
+
+@font-palette-values --myPalette {
+  font-family: "Nabla";
+  base-palette: 5;
 }

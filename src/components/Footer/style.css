@@ -1,7 +1,6 @@
 .footer {
-  font-size: xx-large;
-
-  background: linear-gradient(90deg, rgb(203, 181, 82) 0%, rgb(218, 89, 49) 100%);
+  font-size: large;
+  background: linear-gradient(90deg, rgb(187, 164, 31) 0%, rgb(54, 166, 210) 100%);
   height: 10vh;
   display: flex;
   flex-direction: column;
