@@ -10,4 +10,15 @@
   align-items: center;
   justify-content: center;
   font-size: calc(2em + 2vmin);
+  background-image: url( './frbrg-bg.svg' );
+  background-size: cover;
+}
+
+.subtitle {
+  padding: 40px;
+  border-radius: 48px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: x-large;
+  color: rgb(255, 235, 0);
+  backdrop-filter: blur(20px);
 }
