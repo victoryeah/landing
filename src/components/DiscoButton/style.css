@@ -1,0 +1,24 @@
+@keyframes backgroundColor {
+    0%   {background-color: red;}
+    10%  {background-color: purple;}
+    20%  {background-color: blue;}
+    30%  {background-color: greenyellow;}
+    40%  {background-color: yellow;}
+    50%  {background-color: magenta;}
+    60%  {background-color: orange;}
+    70%  {background-color: white;}
+    80%  {background-color: hotpink;}
+    90%  {background-color: aqua;}
+}
+
+.regularbutton {
+    padding: 2em;
+    cursor: crosshair;
+
+}
+
+.discobutton {
+    padding: 2em;
+    cursor: alias;
+    animation: backgroundColor 2s infinite ease-in-out;
+}
